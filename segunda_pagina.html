@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="pt-BR">
+<head>
+    <link href="https://fonts.googleapis.com/css2?family=Typo+Round&display=swap" rel="stylesheet">
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Sua frase aqui.</title>
+    <link rel="stylesheet" href="styles.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Sua frase aqui.</h1>
+
+        <!-- Coração animado -->
+        <div class="heart-animation">❤️</div>
+
+        <!-- Imagem de Aniversário -->
+        <div class="image-container">
+            <img src="#" alt="Imagem">
+        </div>
+
+        <!-- Mensagens de Carinho -->
+        <p class="birthday-message">Sua Frase aqui.</p>
+
+        <h2 style="text-align: center; font-family: Arial, sans-serif; margin-bottom: 20px;">
+            📸 Mural de Fotos 🌸
+        </h2>
+
+        <!-- Galeria de Imagens -->
+        <div class="image-grid">
+            <!-- Repita os blocos conforme necessário -->
+            <div class="image-item"><img src="#" alt="Imagem"><p>Sua Frase aqui.</p></div>
+            <div class="image-item"><img src="#" alt="Imagem"><p>Sua Frase aqui.</p></div>
+            <div class="image-item"><img src="#" alt="Imagem"><p>Sua Frase aqui.</p></div>
+            <div class="image-item"><img src="#" alt="Imagem"><p>Sua Frase aqui.</p></div>
+            <div class="image-item"><img src="#" alt="Imagem"><p>Sua Frase aqui.</p></div>
+        </div>
+
+        <!-- Quiz da Amizade -->
+        <div class="quiz-container">
+            <h2>🤝 Quiz do amor/amizade 🤝</h2>
+            <form id="quizForm" name="quizForm">
+                <div class="pergunta">
+                    <p>1. Sua pergunta aqui.</p>
+                    <input type="radio" name="q1" value="a"> Sua resposta aqui.<br>
+                    <input type="radio" name="q1" value="b"> Sua resposta aqui.<br>
+                    <input type="radio" name="q1" value="c"> Sua resposta aqui.<br>
+                </div>
+
+                <div class="pergunta">
+                    <p>2. Sua pergunta aqui.</p>
+                    <input type="radio" name="q2" value="a"> Sua resposta aqui.<br>
+                    <input type="radio" name="q2" value="b"> Sua resposta aqui.<br>
+                    <input type="radio" name="q2" value="c"> Sua resposta aqui.<br>
+                </div>
+
+                <div class="pergunta">
+                    <p>3. Sua pergunta aqui.</p>
+                    <input type="radio" name="q3" value="a"> Sua resposta aqui.<br>
+                    <input type="radio" name="q3" value="b"> Sua resposta aqui.<br>
+                    <input type="radio" name="q3" value="c"> Sua resposta aqui.<br>
+                </div>
+
+                <button type="button" onclick="verificarRespostas()">Ver Resultado</button>
+            </form>
+
+            <div id="resultadoQuiz" class="resultado"></div>
+            <div id="animacaoFinal" class="animacao-final">
+                <img src="#" alt="#" class="imagem-coracao">
+            </div>
+        </div>
+
+        <div class="textinho-fofo">
+            <p>Sua frase aqui.</p>
+        </div>
+
+        <!-- Botão para voltar à Página Inicial -->
+        <div class="button-container">
+            <a href="index.html" class="button">Voltar para a Página Inicial</a>
+        </div>
+    </div>
+
+    <!-- Div dos corações -->
+    <div id="baloes-container"></div>
+
+    <!-- Scripts -->
+    <script src="script.js"></script>
+</body>
+</html>
